@@ -1,0 +1,26 @@
+.box{
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  /* 자식들을 주축으로 맨앞(start) 가운데(center) 맨뒤(end) 균일한 가격(space between)*/
+  justify-content: space-between;
+  /* 자식들을 교차축으로 */
+  align-items: end;
+}
+.red{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.blue{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.pink{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}

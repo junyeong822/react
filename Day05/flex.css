@@ -1,0 +1,48 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.pink {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+.musinsa {
+  display: flex;
+  flex-direction: row;
+}
+.clothes {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.image {
+  width: 280px;
+  height: 380px;
+}
+.image > img {
+  width: 280px;
+  height: 380px;
+  object-fit: contain;
+}
+.discount {
+  font-size: 12px;
+  font-weight: 400;
+}
+.name {
+  font-size: 14px;
+  font-weight: 500;
+}

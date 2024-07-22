@@ -1,0 +1,31 @@
+.box{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.icon{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+}
+.icon > i{
+  font-size: 30px;
+  color: white;
+}
+.sky{
+  background-color: skyblue;
+  transition: all 1s;
+}
+.black{
+  background-color: black;
+}
+.sky:hover{
+  background-color: red;
+}
+.black:hover{
+  background-color: yellow;
+}

@@ -1,0 +1,41 @@
+.palette {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.one {
+  background-image: url("eroupe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.two {
+  background-color: #61ecec;
+}
+.three {
+  background-color: #74b9ff;
+}
+.four {
+  background-color: #00b894;
+}
+.five {
+  background-color: #00cec9;
+}
+.six {
+  background-color: #0984e3;
+}
+.seven {
+  background-color: #ffeaa7;
+}
+.eight {
+  background-color: #fac1a0;
+}
+.nine {
+  background-color: #ff7675;
+}

@@ -1,0 +1,26 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+
+.coffee{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+/* hover 둥둥 뜨다 */
+/* 마우스를 올리면 바뀌어요 */
+.coffee:hover{
+  transition: all 0.5s;
+  width: 105%;
+  height: 65%;
+}

@@ -1,0 +1,33 @@
+.naver {
+  height: 100px;
+  width: 100px;
+  border-radius: 9999px;
+}
+
+.naver > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+.apple {
+  width: fit-content;
+  border-radius: 6px;
+  padding: 15px 80px 15px 80px;
+  border: 1px solid gray;
+}
+.apple > i {
+  margin-right: 5px;
+}
+.apple > span {
+  font-weight: 800;
+}
+.kakao {
+  width: fit-content;
+  border-radius: 6px;
+  background-color: yellow;
+  padding: 15px 30px 15px 30px;
+}
+.kakao > i {
+  margin-right: 4px;
+}

@@ -1,0 +1,18 @@
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: fit-content;
+  padding: 20px;
+}
+.icon > i {
+  font-size: 20px;
+}

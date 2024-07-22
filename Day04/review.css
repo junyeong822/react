@@ -1,0 +1,35 @@
+.d1 {
+  background-color: #ff1919;
+  color: white;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 3px 8px 3px 8px;
+}
+
+.d2 {
+  background-color: #ff97c8;
+  color: white;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 3px 8px 3px 8px;
+}
+
+.d3 {
+  background-color: #2046b1;
+  color: white;
+  width: 250px;
+  text-align: center;
+  font-weight: 800;
+  padding: 20px 0px 20px 0px;
+  border: 1px solid red;
+}
+
+.d4 {
+  background-color: #2046b1;
+  color: white;
+  width: 250px;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  font-weight: 800;
+  border: 1px solid red;
+}
